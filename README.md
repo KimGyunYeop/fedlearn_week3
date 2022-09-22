@@ -26,5 +26,7 @@ method name list = ['fedavg', 'fedavgm', 'qfedavg', 'faulttolearnfedavg', 'fedop
 ![faulttolearnfedavg](https://user-images.githubusercontent.com/44080708/191684459-fe0bbb51-e5c7-4658-bb7b-19aa61b55708.png)
 #### faulttolearnfedavg  
 ![fedavgm](https://user-images.githubusercontent.com/44080708/191684469-f1e8d7ad-4184-46d1-8de6-e66bd6c6443e.png)
+#### fedyogi
+![W B Chart 2022  9  22  오후 10_31_08](https://user-images.githubusercontent.com/44080708/191760731-f41f6841-d4aa-4cf9-96a8-1e39dbcdb97a.png)
 #### whole  
-![W B Chart 2022  9  22  오후 4_21_52](https://user-images.githubusercontent.com/44080708/191684070-dae5d990-baa3-4555-9d6e-83d52c477f4d.png)
+![all](https://user-images.githubusercontent.com/44080708/191760755-70a7e13f-05bb-4a24-bb9e-fbbbc4a3bad9.png)
