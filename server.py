@@ -6,7 +6,7 @@ import flwr.server.strategy
 from flwr.server.client_manager import SimpleClientManager
 # from fedavg_local import FedAvg
 import flwr as fl
-from flwr.common import Metrics, Parameters
+from flwr.common import Metrics, Parameters, ndarrays_to_parameters
 from client import femnist_network 
 
 import argparse
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     
     # Define strategy
     # client_manager = SimpleClientManager()
-    strategy = STRATEGY_LIST[args.method](min_fit_clients=9, min_available_clients=9, evaluate_metrics_aggregation_fn=weighted_average)
+    strategy = STRATEGY_LIST[args.method](min_fit_clients=9, min_available_clients=9, evaluate_metrics_aggregation_fn=weighted_average, initial_parameters=ndarrays_to_parameters([val.cpu().numpy() for _, val in femnist_network().state_dict().items()]))
     # server = Server(client_manager=client_manager, strategy=strategy)
 
     # Start Flower server
