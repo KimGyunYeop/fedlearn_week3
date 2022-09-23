@@ -1,6 +1,8 @@
 # fedlearn_week3_homework
 
 Federate learning practice using flower  
+flower에서 제공하는 여러 strategy들을 사용할 수 있도록 수정  
+https://flower.dev/docs/apiref-flwr.html?highlight=fedavg#flwr.server.strategy.FedAvg  
 
 ### usage  
 여러개의 실험을 동시에 진행하기 위해 gpu number와 port를 직접 지정할 수 있도록 수정  
